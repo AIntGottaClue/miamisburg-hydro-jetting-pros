@@ -71,10 +71,10 @@ export const pages: Record<string, PageInfo> = {
     related: { label: 'Request a conversation', href: '/contact' },
   },
   areas: {
-    path: '/service-areas', name: 'Service Areas',
-    title: 'Hydro Jetting Service Areas | Miamisburg Hydro Jetting Pros',
+    path: '/service-areas', name: 'Neighborhoods',
+    title: 'Hydro Jetting Neighborhoods | Miamisburg Hydro Jetting Pros',
     description: 'Miamisburg Hydro Jetting Pros focuses on hydro jetting in Miamisburg, Ohio, and neighborhoods including Historic Downtown and the Great Miami River corridor.',
-    headline: 'Hydro Jetting Service Areas in Miamisburg',
+    headline: 'Hydro Jetting in Miamisburg Neighborhoods',
     intro: 'Miamisburg is our local focus. Use the request form to share a location and ask about hydro jetting for a specific line.',
     sectionTitle: 'Serving Miamisburg neighborhoods.',
     sectionText: 'Each area below has its own page. Include your town and the affected drain when you reach out so the request can be understood in context.',
@@ -109,10 +109,10 @@ export const pages: Record<string, PageInfo> = {
     sectionText: `For a direct conversation, call ${P}. Or use the request form on this page and we will follow up using the phone number or email you provide.`,
     items: [
       { title: 'Phone', text: `Call ${P} to discuss a hydro-jetting request.` },
-      { title: 'Location', text: 'Miamisburg, Ohio. Neighborhoods are listed on the service areas page.' },
+      { title: 'Location', text: 'Miamisburg, Ohio. Neighborhoods are listed on the neighborhoods page.' },
       { title: 'Useful details', text: 'Mention the drain, symptoms, property type, and any known pipe history or access points.' },
     ],
-    related: { label: 'See our service areas', href: '/service-areas' },
+    related: { label: 'See our neighborhoods', href: '/service-areas' },
   },
   privacy: {
     path: '/privacy', name: 'Privacy',

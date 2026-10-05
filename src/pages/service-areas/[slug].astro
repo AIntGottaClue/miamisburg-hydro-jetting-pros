@@ -33,8 +33,8 @@ const srcSentence = (items: [string, string][], cls = '') => {
   return `The background on this page comes from ${list}.`;
 };
 ---
-<Base title={title} description={description} path={path} crumbs={[{ name: 'Service Areas', path: '/service-areas' }, { name: a.name, path }]} extraSchema={[service, faqSchema]}>
-  <Hero headline={`Hydro Jetting in ${a.name}, Miamisburg, OH`} intro={a.intro} location={`${a.name}, OH`} crumbs={[{ href: '/service-areas', label: 'Service Areas' }, { href: path, label: a.name }]} />
+<Base title={title} description={description} path={path} crumbs={[{ name: 'Neighborhoods', path: '/service-areas' }, { name: a.name, path }]} extraSchema={[service, faqSchema]}>
+  <Hero headline={`Hydro Jetting in ${a.name}, Miamisburg, OH`} intro={a.intro} location={`${a.name}, OH`} crumbs={[{ href: '/service-areas', label: 'Neighborhoods' }, { href: path, label: a.name }]} />
   <section class="content-section"><div class="content-inner">
     <div class="prose">
       <h2 class="section-title">{a.title}</h2>
@@ -50,7 +50,7 @@ const srcSentence = (items: [string, string][], cls = '') => {
     <h2 class="section-title">Nearby towns</h2>
     <div class="pill-grid">
       {nearby.map((n) => <a class="pill" href={u(`/service-areas/${n.slug}`)}>Hydro jetting in {n.name}</a>)}
-      <a class="pill" href={u('/service-areas')}>All service areas</a>
+      <a class="pill" href={u('/service-areas')}>All neighborhoods</a>
     </div>
   </div></section>
 
