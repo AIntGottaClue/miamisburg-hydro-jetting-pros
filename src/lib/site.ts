@@ -29,9 +29,9 @@ export const navLinks = [
   { href: '/hydro-jetting', label: 'Hydro Jetting' },
   { href: '/services', label: 'Services', children: true },
   { href: '/our-process', label: 'Our Process' },
-  { href: '/service-areas', label: 'Neighborhoods', children: true },
+  { href: '/neighborhood', label: 'Neighborhoods', children: true },
   { href: '/faq', label: 'FAQ' },
   { href: '/contact', label: 'Contact' },
 ] as const;
 export const footerServiceLinks = serviceLinks;
-export const areaLinks = areas.map((a) => ({ href: `/service-areas/${a.slug}`, label: a.name }));
+export const areaLinks = areas.map((a) => ({ href: `/neighborhood/${a.slug}`, label: a.name }));

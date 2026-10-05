@@ -71,7 +71,7 @@ export const pages: Record<string, PageInfo> = {
     related: { label: 'Request a conversation', href: '/contact' },
   },
   areas: {
-    path: '/service-areas', name: 'Neighborhoods',
+    path: '/neighborhood', name: 'Neighborhoods',
     title: 'Hydro Jetting Neighborhoods | Miamisburg Hydro Jetting Pros',
     description: 'Miamisburg Hydro Jetting Pros focuses on hydro jetting in Miamisburg, Ohio, and neighborhoods including Historic Downtown and the Great Miami River corridor.',
     headline: 'Hydro Jetting in Miamisburg Neighborhoods',
@@ -112,7 +112,7 @@ export const pages: Record<string, PageInfo> = {
       { title: 'Location', text: 'Miamisburg, Ohio. Neighborhoods are listed on the neighborhoods page.' },
       { title: 'Useful details', text: 'Mention the drain, symptoms, property type, and any known pipe history or access points.' },
     ],
-    related: { label: 'See our neighborhoods', href: '/service-areas' },
+    related: { label: 'See our neighborhoods', href: '/neighborhood' },
   },
   privacy: {
     path: '/privacy', name: 'Privacy',

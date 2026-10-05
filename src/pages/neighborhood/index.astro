@@ -15,7 +15,7 @@ const page = pages.areas;
     <div class="content-list">
       {areas.map((a, i) => (
         <article class="content-item"><div class="item-number">{String(i + 1).padStart(2, '0')}</div>
-          <div><h3><a href={u(`/service-areas/${a.slug}`)} style="color:inherit">{a.name}, Miamisburg</a></h3><p>{a.intro}</p></div></article>
+          <div><h3><a href={u(`/neighborhood/${a.slug}`)} style="color:inherit">{a.name}, Miamisburg</a></h3><p>{a.intro}</p></div></article>
       ))}
     </div>
     <div style="margin-top:28px"><a class="text-link" href={u(page.related.href)}>{page.related.label}<span aria-hidden="true">&#8599;</span></a></div>
