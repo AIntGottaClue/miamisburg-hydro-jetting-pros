@@ -58,7 +58,6 @@ const srcSentence = (items: [string, string][], cls = '') => {
   <section class="content-section"><div class="content-inner prose">
     <h2 class="section-title">Drain cleaning FAQs in {a.name}</h2>
     {a.faqs.map(f => <details style="border-bottom:1px solid #d5d6cc;padding:18px 0"><summary style="font-weight:600;cursor:pointer">{f.question}</summary><p style="margin-top:12px">{f.answer}</p></details>)}
-    <p style="margin-top:32px" set:html={srcSentence(a.sources.map((s) => [s.url, s.label]))} />
   </div></section>
   <Callout title={`Need hydro jetting in ${a.name}?`} text="Include your address and what the drain is doing, and we will follow up." />
 </Base>
